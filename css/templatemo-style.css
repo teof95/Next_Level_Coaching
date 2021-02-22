@@ -133,7 +133,9 @@ ul {
 /* Colors */
 
 .tm-text-secondary { color: #669999; }
-.tm-bg-primary { background-color: #ca9acd; }
+.tm-bg-primary { background-color: #cd9a9a; }
+.tm-bg-coaching { background-color: #c58c42; }
+
 .tm-bg-gradient {
   background: linear-gradient(
     135deg,
