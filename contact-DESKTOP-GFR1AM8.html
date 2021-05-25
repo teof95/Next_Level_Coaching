@@ -13,8 +13,6 @@ https://templatemo.com/tm-532-next-level
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-
   </head>
   <body>
     <div class="container-fluid">
@@ -45,7 +43,7 @@ https://templatemo.com/tm-532-next-level
                 <ul class="navbar-nav ml-auto mr-0">
                   <li class="nav-item">
                     <div class="tm-nav-link-highlight"></div>
-                    <a class="nav-link" href="index.html">Αρχική </a>
+                    <a class="nav-link" href="index.html">Αρχική</a>
                   </li>
                   <li class="nav-item">
                     <div class="tm-nav-link-highlight"></div>
@@ -75,7 +73,8 @@ https://templatemo.com/tm-532-next-level
           <div class="tm-page-col-left tm-welcome-box tm-bg-gradient">
             <p class="tm-welcome-text">
               <em
-                >Reach the next level with <strong>Eleni Matraki</strong></em
+                >"Gradient CSS BG #A0C0C0 to #669999 and right side is a
+                parallax image of our group."</em
               >
             </p>
           </div>
@@ -89,38 +88,25 @@ https://templatemo.com/tm-532-next-level
         </div>
       </div>
 
-      
       <section class="row tm-pt-4 tm-mb-3">
         <div class="col-12 tm-page-cols-container">
           <div class="tm-page-col-left">
             <div class="tm-contact-container tm-mb-6">
-              
               <div class="tm-address-container">
                 <h2 class="tm-text-secondary tm-mb-6">Address</h2>
                 <address>
-                  
                   <p>
-                    I.Dragoumi 6<br />
-                    41222 <br />
-                    Larissa<br />
-                    Greece<br />
+                    110-330 Sed ultricies purus nec<br />
+                    Suscipit vulputate<br />
+                    Fusce a massa 10550
                   </p>
-
-                  <a href="tel:+306979225780" target="_blank" class="fas fa-phone fa-2x"></a>
-                  <a href="mailto:maeleni@hotmail.com" target="_blank" class="fas fa-at fa-2x"style="padding: 10px;"></a>
-
-                  
-                  <a href="https://www.linkedin.com/in/eleni-matraki-b2864a41/" target="_blank" class="fab fa-linkedin-in fa-2x" style="padding: 10px;" ></a>
-                  <a href="https://www.facebook.com/elenimatrakilifecoach/" target="_blank" class="fab fa-facebook fa-2x" style="padding: 10px;"></a>
-
-
-
                 </address>
               </div>
 
               <div class="tm-location-container">
                 <h2 class="tm-text-secondary tm-mb-4">Location</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.5200311313756!2d22.41258591613047!3d39.63800961055171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135888971b313ef3%3A0xa527711f6394b418!2sIonos%20Dragoumi%206%2C%20Larisa%20412%2022%2C%20Greece!5e0!3m2!1sen!2snl!4v1621979934240!5m2!1sen!2snl" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>              </div>
+                <a href="#"><img src="img/map.png" alt="Map image" class="img-fluid" /></a>
+              </div>
             </div>
           </div>
           <div class="tm-page-col-right tm-form-container">
@@ -148,8 +134,34 @@ https://templatemo.com/tm-532-next-level
                   placeholder="Your Email"
                   required="" />
               </div>
+              <div class="form-group-2 input-field">
+                <select class="tm-select" name="occupation" id="occupation">
+                  <option value="select">Your Occupation</option>
+                  <option value="CE">Chief Executive</option>
+                  <option value="SA">Software Architect</option>
+                  <option value="PM">Project Manager</option>
+                  <option value="WD">Web Developer</option>
+                </select>
+              </div>
+              <div class="form-group tm-choices-container tm-text-secondary">
+                <label class="tm-w-50">
+                  <input
+                    type="radio"
+                    class="with-gap"
+                    name="gender"
+                    value="male" />
+                  <span>Male</span>
+                </label>
 
-
+                <label class="tm-w-50">
+                  <input
+                    type="radio"
+                    class="with-gap"
+                    name="gender"
+                    value="female" />
+                  <span>Female</span>
+                </label>
+              </div>
 
               <div class="tm-mb-5">
                 <textarea
@@ -161,10 +173,46 @@ https://templatemo.com/tm-532-next-level
                   required=""></textarea>
               </div>
 
-
+              <div class="tm-mb-4 tm-choices-container tm-text-secondary">
+                <label class="tm-w-50">
+                  <input
+                    type="checkbox"
+                    name="ckb[]"
+                    class="filled-in"
+                    value="1" />
+                  <span>Check Box 1</span>
+                </label>
+                <label class="tm-w-50">
+                  <input
+                    type="checkbox"
+                    name="ckb[]"
+                    class="filled-in"
+                    value="2" />
+                  <span>Check Box 2</span>
+                </label>
+              </div>
+              <div class="tm-mb-6 file-upload-container">
+                <input
+                  id="file_name_label"
+                  type="text"
+                  class="border-top-0 border-right-0 border-left-0"
+                  placeholder="Your file to upload"
+                  disabled />
+                <label class="btn btn-outline btn-file">
+                  Browse...
+                  <input
+                    type="file"
+                    name="file_to_upload"
+                    style="display: none;" />
+                </label>
+              </div>
 
               <div class="">
-              <input class="btn btn-secondary tm-btn-submit rounded-0" type="submit" value="Submit">
+                <button
+                  type="submit"
+                  class="btn btn-secondary tm-btn-submit rounded-0">
+                  Submit
+                </button>
               </div>
             </form>
           </div>
