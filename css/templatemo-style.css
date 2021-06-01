@@ -440,6 +440,12 @@ ul.tm-list-plus li:before {
 	cursor: pointer;
 }
 
+.card-text,
+.card-title
+{
+  color: black;
+}
+
 .tm-gallery-item figure img {
 	position: relative;
 	display: block;
